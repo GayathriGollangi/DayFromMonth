@@ -1,0 +1,12 @@
+package DateTime;
+
+import java.time.LocalDate;
+
+public class getDay {
+		public static void main(String[] args) {
+			System.out.println("Day from month");
+			LocalDate date = LocalDate.now();
+			int day = date.getDayOfMonth();
+			System.out.println(day);
+		}
+}
